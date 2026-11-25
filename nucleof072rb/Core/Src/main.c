@@ -91,7 +91,6 @@ int main(void)
   MX_USART2_UART_Init();
   MX_SPI1_Init();
   MX_TIM1_Init();
-
   /* USER CODE BEGIN 2 */
   uint8_t txData[3] = {0b00000001, 0b10000000, 0b00000000};
   uint8_t rxData[3];
